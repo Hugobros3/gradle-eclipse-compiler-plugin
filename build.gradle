@@ -40,7 +40,7 @@ test {
 gradlePlugin {
     plugins {
         eclipseCompilerPlugin {
-            id = 'de.set.ecj'
+            id = 'io.xol.ecj9'
             implementationClass = 'de.set.gradle.ecj.EclipseCompilerPlugin'
         }
         eclipseCompilerPluginBase {
@@ -55,14 +55,14 @@ checkstyle {
 }
 
 pluginBundle {
-    website = 'https://github.com/TwoStone/gradle-eclipse-compiler-plugin'
-    vcsUrl = 'https://github.com/TwoStone/gradle-eclipse-compiler-plugin'
+    website = 'https://github.com/Hugobros3/gradle-eclipse-compiler-plugin'
+    vcsUrl = 'https://github.com/Hugobros3/gradle-eclipse-compiler-plugin'
     description = 'Gradle plugin for using the eclipse compiler for java (ecj) for compiling java files instead of javac'
     tags = ['ecj', 'eclipse compiler for java', 'java', 'compile']
 
     plugins {
         ecjPlugin {
-            id = 'de.set.ecj'
+            id = 'io.xol.ecj9'
             displayName = 'Gradle Eclipse Compiler for Java Plugin'
         }
     }
